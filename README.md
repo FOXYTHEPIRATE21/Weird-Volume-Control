@@ -2,28 +2,6 @@
 
 This project is an interactive exploration of unconventional volume controls using JavaScript and HTML. It lets you experiment with two different approaches to manipulate the volume of a song by arranging draggable points on a canvas.
 
-#Warning
-The app is just for fun and its pretty simple, the heuristic is using a matrix(5 rows and 3 columns), so u have to drag the points and paint he number like this:
-Row 1: X X X
-Row 2: X   X
-Row 3: X   X
-Row 4: X   X
-Row 5: X X X
-
-Row 1:   X
-Row 2: X X
-Row 3:   X
-Row 4:   X
-Row 5: X X X
-
-Row 1: X X X
-Row 2:     X
-Row 3: X X X
-Row 4: X
-Row 5: X X X
-
-If you dont draw the numbers like this, probably it wont work, have fun!
-
 ## Available Modes
 
 ### 1. Normal Mode (`dragvolumecontrol.js`)
@@ -55,4 +33,34 @@ If you dont draw the numbers like this, probably it wont work, have fun!
 
 **Author:** FOXY_THEPIRATE21
 
+master
+
+## Digit Matrix Representation
+
+Each digit is represented in a 5x3 grid as follows (X = active dot, space = empty):
+
+```
+Digit 0:
+XXX
+X X
+X X
+X X
+XXX
+
+Digit 1:
+   X
+ XX
+   X
+   X
+XXX
+
+Digit 2:
+XXX
+   X
+XXX
+X  
+XXX
+```
+
 Have fun exploring new ways to control the volume!
+
