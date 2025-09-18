@@ -33,6 +33,7 @@ This project is an interactive exploration of unconventional volume controls usi
 
 **Author:** FOXY_THEPIRATE21
 
+master
 
 ## Digit Matrix Representation
 
@@ -62,3 +63,4 @@ XXX
 ```
 
 Have fun exploring new ways to control the volume!
+
