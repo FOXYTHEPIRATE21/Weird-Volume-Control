@@ -38,28 +38,27 @@ master
 ## Digit Matrix Representation
 
 Each digit is represented in a 5x3 grid as follows (X = active dot, space = empty):
-
 ```
 Digit 0:
-XXX
-X X
-X X
-X X
-XXX
+X X X
+X   X
+X   X
+X   X
+X X X
 
 Digit 1:
-   X
- XX
-   X
-   X
-XXX
+  X
+X X
+  X
+  X
+X X X
 
 Digit 2:
-XXX
-   X
-XXX
+X X X
+    X
+X X X
 X  
-XXX
+X X X
 ```
 
 Have fun exploring new ways to control the volume!
