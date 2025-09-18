@@ -33,4 +33,32 @@ This project is an interactive exploration of unconventional volume controls usi
 
 **Author:** FOXY_THEPIRATE21
 
+
+## Digit Matrix Representation
+
+Each digit is represented in a 5x3 grid as follows (X = active dot, space = empty):
+
+```
+Digit 0:
+XXX
+X X
+X X
+X X
+XXX
+
+Digit 1:
+   X
+ XX
+   X
+   X
+XXX
+
+Digit 2:
+XXX
+   X
+XXX
+X  
+XXX
+```
+
 Have fun exploring new ways to control the volume!
